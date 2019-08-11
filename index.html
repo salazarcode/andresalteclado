@@ -3,18 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>My Own Web</title>
+    <style>
+        @font-face {
+            font-family: 'Welcome';
+            src: url('./src/assets/fuentes/Welcome.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'Guaraldo';
+            src: url('./src/assets/fuentes/Guaraldo.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'PonyMaker';
+            src: url('./src/assets/fuentes/PonyMaker.ttf') format('truetype');
+        }
+        body{
+            padding:0;
+            margin: 0;
+        }
+        .titulo{
+            font-family: "PonyMaker";
+            font-size: 6vw;
+            text-align: center
+        }
+        .intro{
+            position: relative;
+            width: 400px;
+            background-color: ivory;
+            margin:auto;            
+            font-size: 1.5vw;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hola mundo! AndrésAlTeclado.Com</h1>
-    <h1>Hasta que tengo un sitio hospedado en Firebase</h1>
-    <p>
-        Hola muchachos, mi nombre es Andrés y soy un joven programador venezolano, itinerante por el mundo salí de mi país hace 9 meses ya y he apredido un montón.
-    </p>
-    <p>
-        Lo que vaya aprendiendo lo iré montando aquí, en éste sitio web hecho from scratch. Disculpen mis habilidades de frontend, no escribí una sóla linea de ccs.
-    </p>
-    <p>
-        Por cierto... hice el deploy de éste sitio web horrible a través de FirebaseCLI, sólo para presumir.
-    </p>
+    <div class="titulo">ANDRES AL TECLADO</div>
+    <div class="intro">
+        <h3>Hasta que tengo un sitio hospedado en Firebase</h3>
+        <p>
+            Hola muchachos, mi nombre es Andrés y soy un joven programador venezolano, itinerante por el mundo salí de mi país hace 9 meses ya y he apredido un montón.
+        </p>
+        <p>
+            Lo que vaya aprendiendo lo iré montando en éste sitio web hecho from scratch. Disculpen mis habilidades de frontend, no escribí una sóla linea de ccs.
+        </p>
+        <p>
+            Por cierto... hice el deploy de éste sitio web horrible a través de FirebaseCLI, sólo para presumir.
+        </p>
+    </div>
+
 </body>
 </html>
